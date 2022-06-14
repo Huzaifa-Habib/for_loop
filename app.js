@@ -1,5 +1,7 @@
 // Question 1=======================================================
 
+document.write("<h2>Answer : 1</h2>")
+
 // for (var i = 1; i <= 5; i++) 
 // {
 //    alert("Hello World")
@@ -7,6 +9,11 @@
 
 
 // Question 2========================================================
+
+document.write("<h2>Answer : 2</h2>")
+document.write("<h3>Counting till 10 using loop : </h3>")
+
+
 
 for (var i = 1; i <=10; i++) {
     document.write(i + "</br>")
@@ -17,30 +24,37 @@ document.write("</br>");
 
 
 // Question 3===========================================================
+document.write("<h2>Answer : 3</h2>")
 
-// var a= prompt("Enter the number for its multiplication table");
-// var b= prompt("Enter the length of number for its multiplication table");
 
-// for (var t = 1 ; t <= b; t++) {
-//     var result = t * a;
-//     document.write(a + " X " + t + " = " + result + "</br>")
+var a= prompt("Enter the number for its multiplication table");
+var b= prompt("Enter the length of number for its multiplication table");
 
-// }
+for (var t = 1 ; t <= b; t++) {
+    var result = t * a;
+    document.write(a + " X " + t + " = " + result + "</br>")
 
-// document.write("</br>");
-// document.write("</br>");
+}
+
+
+document.write("</br>");
+document.write("</br>");
 
 
 
 // Quetion 4 ========================================================
 
 var q= ["Nokia", "Samsung", "Apple", "Sony", "Huawei"]
+document.write("<h2>Answer : 4</h2>")
+
 
 for (var m=0; m < q.length; m++) {
     document.write(q [m] );
     document.write( "</br>")
 
 }
+
+
 
 document.write( "</br>")
 document.write( "</br>")
@@ -51,11 +65,16 @@ document.write( "</br>")
 
 var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 
+document.write("<h2>Answer : 5</h2>")
+
+
 for (var i=0; i < fruits.length; i++) {
     document.write(fruits [i] );
     document.write( "</br>")
 
 }
+
+
 document.write( "</br>")
 
 
@@ -72,6 +91,9 @@ document.write( "</br>")
 
 var n=[];
 
+document.write("<h2>Answer : 6</h2>")
+
+
 var a=prompt("Enter number of items");
 n = a;
 document.write("<h2>" + "Number of items : " +  n + "</h2> ");
@@ -87,6 +109,9 @@ document.write( "</br>")
 
 
 // Question 7========================================================
+
+document.write("<h2>Answer : 7</h2>")
+
 document.write("<b>Counting:<b/>" + "</br>");
 
 
@@ -140,8 +165,11 @@ document.write( "</br>")
 
 // Question8==============================================================
 
-// var bakery=["cake","apple pie","cookie","chips","patties"];
-// var ask = prompt("What do you want to order? ").toLocaleLowerCase;
+document.write("<h2>Answer : 8</h2>")
+
+
+var bakery=["cake","apple pie","cookie","chips","patties"];
+var ask = prompt("What do you want to order? ").toLowerCase();
 
 // for (b=0; b <bakery.length ; b++) { 
 //     if (bakery[b] === prompt) {
@@ -149,11 +177,12 @@ document.write( "</br>")
 //         // document.write (ask + " is available at index " + [b] ); break;
         
 //         alert(ask + " is available at index " + [b])
+//         break;
         
 //     }
 
-//     else if (bakery[b] !== prompt){
-//         document.write("We are sorry "+ ask + " Not available at our bakery");break;
+//     else if (bakery[b] !== ask){
+//         document.write("We are sorry "+ ask + " Not available at our bakery");
 //     }
 
 //     else{
@@ -168,6 +197,9 @@ document.write( "</br>")
 
 
 // Question 9=====================================================
+
+document.write("<h2>Answer : 9</h2>")
+
 
 var n=[24,53,17,18,78];
 
@@ -188,6 +220,9 @@ document.write( "</br>")
 
 // Question 10=====================================================================
 
+document.write("<h2>Answer : 10</h2>")
+
+
 var numbers = [24,53,78,91,12]
 var smallest = numbers[0];
 
@@ -207,6 +242,9 @@ document.write( "</br>")
 
 
 // Question 11=============================================================
+
+document.write("<h2>Answer : 11</h2>")
+
 
 var numbers = [24,53,78,91,12]
 
@@ -231,6 +269,10 @@ document.write( "</br>")
 
 
 // Question 12=============================================================
+
+
+document.write("<h2>Answer : 12</h2>")
+
 document.write("<h3> Mulitiples of 5 ranging till 100:  </h3>")
 for (var five=5; five<101; five+=5) {
     document.write(five + ", ");
@@ -247,25 +289,28 @@ document.write( "</br>")
 
 // Question 13=============================================================
 
-var students =["ALi","Sami","Taha","Inam"];
-var scores=[58,73,89,90];
-// var table=[];
+document.write("<h2>Answer : 13</h2>")
 
-// for(k=0; k < students.length; k++ ){
-    // for(j=0; j<scores.length; j++ ){ 
-        // table.push(students[k] + scores[j])
-// document.getElementById("data").innerText=table;
-// document.getElementById("head").innerText="Students";
 
-document.getElementById("data").innerText=students[0];
-document.getElementById("data1").innerText=students[1];
-document.getElementById("data2").innerText=students[2];
-document.getElementById("data3").innerText=students[3];
+// var students =["ALi","Sami","Taha","Inam"];
+// var scores=[58,73,89,90];
+// // var table=[];
 
-document.getElementById("score").innerText=scores[0];
-document.getElementById("score1").innerText=scores[1];
-document.getElementById("score2").innerText=scores[2];
-document.getElementById("score3").innerText=scores[3];
+// // for(k=0; k < students.length; k++ ){
+//     // for(j=0; j<scores.length; j++ ){ 
+//         // table.push(students[k] + scores[j])
+// // document.getElementById("data").innerText=table;
+// // document.getElementById("head").innerText="Students";
+
+// document.getElementById("data").innerText=students[0];
+// document.getElementById("data1").innerText=students[1];
+// document.getElementById("data2").innerText=students[2];
+// document.getElementById("data3").innerText=students[3];
+
+// document.getElementById("score").innerText=scores[0];
+// document.getElementById("score1").innerText=scores[1];
+// document.getElementById("score2").innerText=scores[2];
+// document.getElementById("score3").innerText=scores[3];
 
 // }
 
@@ -273,6 +318,9 @@ document.getElementById("score3").innerText=scores[3];
 
 
 // Question 14==========================================================
+
+document.write("<h2>Answer : 14</h2>")
+
 
 // var scores1= [12,45,3,22,34,50];
 // var input = prompt("Give the number at which you want to stop the program (12,45,3,22,34,50)");
@@ -290,6 +338,9 @@ document.getElementById("score3").innerText=scores[3];
 
 
 // Question 15====================================================
+
+document.write("<h2>Answer : 15</h2>")
+
 
 // var a = [ [1,2,3] , [4,5,6] , [7,8,9] ];
 
@@ -322,6 +373,9 @@ document.getElementById("score3").innerText=scores[3];
 
 // Question 16===============================================================
 
+document.write("<h2>Answer : 16</h2>")
+
+
 
 var userNum = Number(window.prompt("Enter number of your choice greater than1"));
 for (var i = userNum; i>=0 ; i-=0.5) {
@@ -330,6 +384,9 @@ for (var i = userNum; i>=0 ; i-=0.5) {
 
 
 // Question 17==================================================================
+
+document.write("<h2>Answer : 17</h2>")
+
 
 for (i = 0; i <= 20; i++) {
     if (i%2===0) {
@@ -351,6 +408,9 @@ document.write( "</br>")
 
 
 // Question 18========================================================
+
+document.write("<h2>Answer : 18</h2>")
+
 var pro=1
 for(var i=1; n=i<=7; i+=2)
     if(n%2==1)
@@ -366,22 +426,28 @@ document.write( "</br>")
 
 // Question 19===================================================
 
-// var star = Number(prompt("Enter number to print pattern of stars"));
-// var string = "";
+document.write("<h2>Answer : 19</h2>")
 
-// for (let i = 1; i <= star; i++) {
-//   for (let j = 0; j < star-i; j++) {
-//    string += "*";
-//   } 
-//   string += "</br>";
-// }
-// document.write(string);
+
+var star = Number(prompt("Enter number to print pattern of stars"));
+var string = "";
+
+for (let i = 1; i <= star; i++) {
+  for (let j = 0; j < star-i; j++) {
+   string += "*";
+  } 
+  string += "</br>";
+}
+document.write(string);
 
 document.write( "</br>")
 document.write( "</br>")
 
 
 // Question 20=================================================================
+
+document.write("<h2>Answer : 20</h2>")
+
 var string = "";
 var string2 = "";
 var string3 = "";
