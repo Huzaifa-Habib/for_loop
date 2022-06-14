@@ -127,8 +127,12 @@ document.write( "</br>")
 document.write( "</br>")
 
 document.write("Series Numbers " + "<br />");
-for(var s=0; s<=20; s +=2) {
-    document.write(s + "K, ");
+for(var s=2; s<=20; s +=2) {
+    if (s % 2===0) {
+        document.write(s + "K, ");
+
+
+    }
 }
 
 document.write( "</br>")
@@ -340,7 +344,106 @@ for (i = 0; i <= 20; i++) {
 
 }
 
+
+document.write( "</br>")
+document.write( "</br>")
+
+
+
 // Question 18========================================================
+var pro=1
+for(var i=1; n=i<=7; i+=2)
+    if(n%2==1)
+    {
+    pro=pro*i;
+    document.write(i + "<br>");
+    }
+document.write("Product fo odd number from 1 to 7 is "+ pro);
+
+
+document.write( "</br>")
+document.write( "</br>")
+
+// Question 19===================================================
+
+// var star = Number(prompt("Enter number to print pattern of stars"));
+// var string = "";
+
+// for (let i = 1; i <= star; i++) {
+//   for (let j = 0; j < star-i; j++) {
+//    string += "*";
+//   } 
+//   string += "</br>";
+// }
+// document.write(string);
+
+document.write( "</br>")
+document.write( "</br>")
+
+
+// Question 20=================================================================
+var string = "";
+var string2 = "";
+var string3 = "";
+
+var star2=Number(prompt("Enter number of lines at which you want print patterns of stars"))
+
+
+for(let i = 0; i < star2; i++) { 
+  for(let j = 0; j < star2; j++) { 
+    string += "*";
+  }
+  
+  string += "<br>";
+}
+
+document.write(string);
+
+
+document.write( "</br>")
+document.write( "</br>")
+
+
+for (let i = 1; i < star2; i++) {
+   
+    
+    for (let k = 0; k < star2 - i; k++) {
+      string2 += "*";
+    }
+    string2+= "<br>";
+  }
+  document.write(string2);
+
+  
+document.write( "</br>")
+document.write( "</br>")
+
+
+  for (let i = 1; i <= star2; i++) {
+    for (let j = 0; j < i; j++) {
+      string3 += "*";
+    }
+    string3 += "<br>";
+  }
+  document.write(string3);
+
+
+
+//========== End =======================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
